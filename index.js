@@ -32,6 +32,9 @@ app.use(bodyParser.json({ limit: "30mb", extended: true }))
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }))
 app.use(cors())
 app.use("/assets", express.static(path.join(__dirname, "public/assets")))
+app.use("/", (req, res) => {
+    res.send('Welcome to the server home page')
+})
 
 
 /* File Storage */
@@ -62,7 +65,9 @@ mongoose.connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => {
-    app.listen(PORT, () => console.log(`Server Port: ${PORT}`))
+    app.listen(PORT, () => {
+        console.log(`The app works at Port: ${PORT}`)
+    })
 
     /* Control point fully working backend */
     /* add data one time */
