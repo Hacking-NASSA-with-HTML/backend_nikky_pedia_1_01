@@ -11,3 +11,11 @@ https://stackoverflow.com/questions/74167128/dependency-problem-using-multer-and
 
 Maybe it will help others 🙂
 Thank you anyway to all who tried to help 🤝
+
+![](https://github.com/Hacking-NASSA-with-HTML/nikky_pedia/blob/main/Nikky-pedia.gif)
+
+![](https://github.com/Hacking-NASSA-with-HTML/nikky_pedia/blob/main/Nikky-pediA.jpg)
+
+![](https://github.com/Hacking-NASSA-with-HTML/nikky_pedia/blob/main/Nikky-pediA_mobile.jpg)
+
+![](https://github.com/Hacking-NASSA-with-HTML/Array_iteration_cheatsheet/blob/main/star.gif)
